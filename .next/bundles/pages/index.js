@@ -9,7 +9,8 @@ __NEXT_REGISTER_PAGE('/', function() {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("./node_modules/react/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sharedComponents_navigator__ = __webpack_require__("./components/sharedComponents/navigator.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_reactstrap__ = __webpack_require__("./node_modules/reactstrap/dist/reactstrap.es.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__sharedComponents_navigator__ = __webpack_require__("./components/sharedComponents/navigator.js");
 var _jsxFileName = "/Users/me.mojila/Projects/next-test-online/components/question/index.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
@@ -29,6 +30,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 
 
+
 var Number = function Number(_ref) {
   var children = _ref.children,
       active = _ref.active;
@@ -36,7 +38,7 @@ var Number = function Number(_ref) {
     className: "pointer p-2 pl-4 pr-4 small rounded m-1 " + (active ? "text-white bg-primary" : "border bg-white"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 6
     }
   }, children);
 };
@@ -58,37 +60,54 @@ function (_React$Component) {
       return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 11
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__sharedComponents_navigator__["a" /* default */], {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__sharedComponents_navigator__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 12
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "mt-5 pt-3 border-bottom bg-light p-2",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 13
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-        className: "d-flex justify-content-start noselect",
+        className: "d-flex justify-content-start flex-wrap noselect",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 14
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(Number, {
         active: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
+          lineNumber: 15
         }
       }, "1"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(Number, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 16
         }
-      }, "2"))));
+      }, "2"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        className: "mt-5",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["a" /* Container */], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+        className: "p-2 border",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21
+        }
+      }))));
     }
   }]);
 
@@ -180,7 +199,7 @@ function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["a" /* Navbar */], {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_reactstrap__["b" /* Navbar */], {
         className: "border-bottom bg-white",
         fixed: "top",
         __source: {
@@ -3762,10 +3781,10 @@ Target.propTypes = {
 
 "use strict";
 /* unused harmony export Alert */
-/* unused harmony export Container */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Container; });
 /* unused harmony export Row */
 /* unused harmony export Col */
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Navbar; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return Navbar; });
 /* unused harmony export NavbarBrand */
 /* unused harmony export NavbarToggler */
 /* unused harmony export Nav */

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Container } from 'reactstrap'
 
 import Navigator from '../sharedComponents/navigator'
 
@@ -10,10 +11,17 @@ class Question extends React.Component {
             <div>
                 <Navigator/>
                 <div className="mt-5 pt-3 border-bottom bg-light p-2">
-                    <div className="d-flex justify-content-start noselect">
+                    <div className="d-flex justify-content-start flex-wrap noselect">
                         <Number active={true}>1</Number>
                         <Number>2</Number>
                     </div>
+                </div>
+                <div className="mt-5">
+                    <Container>
+                        <div className="p-2 border">
+                            
+                        </div>
+                    </Container>
                 </div>
             </div>
         )
